@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+  
+#wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(31, 25, 30);
+}
+    
+    #dialog {
+      position:relative ;
+      border: solid 2px rgb(16, 13, 17);
+      margin:auto;
+      padding: 10px 10px;
+      display: inline-block;
+      box-shadow: 0 0 4px rgb(213, 138, 228);
+      background-color: linear-gradient(90deg, #c4a4ce 50%, #e9bce1 50.1%);
+    }
+      
+      h3 {
+        margin: 10 10 10px;
+        padding: 0;
+        line-height: 2;
+      }
+      
+      span {
+        font-size: 20;
+      }
+      
+      #form {
+        max-width: 300px;
+        margin: auto;
+      }
+        
+        input {
+         
+          margin: left 100px;
+          text-align: center;
+          line-height: 30px;
+          font-size: 15px;
+          border: solid 1px rgba(230, 113, 220, 0.082);
+          box-shadow: 10px 10px 5px rgb(121, 82, 124) inset;
+          outline: none;
+          width: 20%;
+          transition: all .2s ease-in-out;
+          border-radius: 4px;
+        }
+          :focus {
+            border-color: rgb(173, 111, 173);
+            box-shadow: 0 0 5px purple inset;
+          }
+          
+          ::selection {
+            background: transparent;
+        }
+          
+        
+        
+        button {
+          margin:20px 10px 50px;
+          width: 90%;
+          padding: 20px;
+          position: relative;
+          background-color: #e2a2ec;
+          border: none;
+          text-transform: uppercase;
+        }
+      
+      
+    button {
+    
+        border: solid 2px;
+       border-radius: 30px;
+          line-height: 15px;
+          font-size: 70%;
+          width: 100px;
+          position: relative;
+          right: 20px;
+          top: 10px;
+        }           
+      
+      
+      div {
+        position: relative;
+        z-index: 1;
+      }
+      
+      
+
+  
